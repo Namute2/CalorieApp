@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E28"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#fdfdfd"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Создайте аккаунт"
+        />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Введите логин"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Введите почту"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Введите пароль"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter"
+        android:text="Введите параметры"
+        android:textColor="#fdfdfd"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-100dp"
+            android:text="Female/Male"
+            android:textColor="#fdfdfd"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch_gen"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:switchMinWidth="70dp"
+            android:switchPadding="10dp"
+            android:text=""
+            android:textOff="F"
+            android:textOn="M"
+            android:thumbTextPadding="0dp"
+            android:thumbTint="@color/switch_thumb_tint"
+            android:trackTint="@color/switch_track_tint" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/user_height"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Введите рост (см)"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        />
+
+    <EditText
+        android:id="@+id/user_weight"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Введите вес (кг)"
+        android:textColorHint="#6a6a6a"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/inter"
+        android:text="Уровень активности"
+        android:textColor="#fdfdfd"
+        android:textSize="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-73dp"
+            android:text="Low/High"
+            android:textColor="#fdfdfd"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch_act"
+            android:layout_width="218dp"
+            android:layout_height="50dp"
+            android:switchMinWidth="70dp"
+            android:switchPadding="10dp"
+            android:text=""
+            android:textOff="L"
+            android:textOn="H"
+            android:thumbTextPadding="0dp"
+            android:thumbTint="@color/switch_thumb_tint"
+            android:trackTint="@color/switch_track_tint" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Зарегестрироваться"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#e2a600"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/link_to_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/inter"
+        android:text="Вход в аккаунт"
+        android:textColor="#fdfdfd"
+        android:textSize="17dp" />
+
+</LinearLayout>
