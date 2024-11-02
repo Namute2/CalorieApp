@@ -1,0 +1,119 @@
+{
+	"groups": [
+		{
+			"ident": "ingredients",
+			"parent": "",
+			"resourceId": "Ингредиенты"
+		},
+		{
+			"ident": "vegetables",
+			"parent": "ingredients",
+			"resourceId": "Овощи"
+		},
+		{
+			"ident": "vegetables_paprika",
+			"parent": "vegetables",
+			"resourceId": "Перец"
+		},
+		{
+			"ident": "vegetables_salad",
+			"parent": "vegetables",
+			"resourceId": "Салат"
+		},
+		{
+			"ident": "dairy",
+			"parent": "ingredients",
+			"resourceId": "Молочные продукты"
+		},
+		{
+			"ident": "meat",
+			"parent": "ingredients",
+			"resourceId": "Мясо"
+		},
+		{
+			"ident": "drinks",
+			"parent": "ingredients",
+			"resourceId": "Напитки"
+		},
+		{
+			"ident": "drinks_alcoholic",
+			"parent": "drinks",
+			"resourceId": "Алкогольные напитки"
+		},
+		{
+			"ident": "drinks_alcoholic_beer",
+			"parent": "drinks_alcoholic",
+			"resourceId": "Пиво"
+		},
+		{
+			"ident": "cereal",
+			"parent": "ingredients",
+			"resourceId": "Зерновые"
+		},
+		{
+			"ident": "fish",
+			"parent": "ingredients",
+			"resourceId": "Рыба"
+		},
+		{
+			"ident": "fruit",
+			"parent": "ingredients",
+			"resourceId": "Фрукты"
+		},
+		{
+			"ident": "nuts",
+			"parent": "ingredients",
+			"resourceId": "Орехи"
+		},
+		{
+			"ident": "fryingfat",
+			"parent": "ingredients",
+			"resourceId": "Масло"
+		},
+		{
+			"ident": "mushrooms",
+			"parent": "ingredients",
+			"resourceId": "Грибы"
+		},
+		{
+			"ident": "misc",
+			"parent": "ingredients",
+			"resourceId": "Прочее"
+		},
+		{
+			"ident": "sausage",
+			"parent": "meat",
+			"resourceId": "Колбаса"
+		},
+		{
+			"ident": "cheese",
+			"parent": "dairy",
+			"resourceId": "Сыр"
+		},
+		{
+			"ident": "drinks_soft",
+			"parent": "drinks",
+			"resourceId": "Безалкогольные напитки"
+		},
+		{
+			"ident": "drinks_soft_rapp",
+			"parent": "drinks_soft",
+			"resourceId": "Газированные напитки"
+		},
+		{
+			"ident": "drinks_soft_rapp_mwp",
+			"parent": "drinks_soft_rapp",
+			"resourceId": "Газированные напитки 2"
+		},
+		{
+			"ident": "drinks_soft_rapp_juice",
+			"parent": "drinks_soft_rapp",
+			"resourceId": "Соки"
+		},
+		{
+			"ident": "drinks_soft_rapp_soda",
+			"parent": "drinks_soft_rapp",
+			"resourceId": "Содовые"
+		}
+	]
+}

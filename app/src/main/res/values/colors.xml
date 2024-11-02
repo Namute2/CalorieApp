@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="switch_track_tint">#e2a600</color>
-    <color name="switch_thumb_tint">#fce93d</color>
+    <color name="blue">#FF99CCFF</color>
+    <color name="red">#FFFF99CC</color>
+    <color name="green">#FF88FFAA</color>
+    <color name="calorieBackground">#095A19</color>
+    <color name="calorieForeground">#63D863</color>
+    <color name="nutritionBackground">#FFB13B</color>
+    <color name="nutritionForeground">#785000</color>
+    <color name="mainColor">#007BF4</color>
+    <color name="mainColorVariant">#004991</color>
 </resources>
